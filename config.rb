@@ -21,6 +21,10 @@ helpers do
   end
 end
 
+configure :build do
+  set :build_dir, 'docs'
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
